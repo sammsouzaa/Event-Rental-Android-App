@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blue_background"
+    tools:context=".fragmentsMyLocation.mylocations_add_location_basicdetails3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp">
+
+        <ImageView
+            android:id="@+id/btn_backprevious"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#526D82"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <ImageView
+            android:id="@+id/btn_closeToMenu"
+            android:layout_marginStart="275dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#526D82"
+            app:srcCompat="@drawable/baseline_close_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addmylocationbasicdetails3_texto1"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addmylocationbasicdetails3_texto6"
+        android:textColor="#526D82"
+        android:paddingBottom="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/propertySize"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#454545"
+        android:textColorHint="#526D82"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="16dp"
+        android:hint="ex: 500m2"
+        android:maxLength="10"
+        android:inputType="numberDecimal"
+        android:background="@drawable/bg_edittext_property"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/idcontador3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 de 10"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="24dp"
+        android:textColor="#526D82"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addmylocationbasicdetails3_texto2"
+                android:textColor="#526D82"
+                android:paddingBottom="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="28dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/propertyPrice"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:textColor="#454545"
+                android:textColorHint="#526D82"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="28dp"
+                android:paddingStart="16dp"
+                android:hint="ex: r$200"
+                android:inputType="numberDecimal"
+                android:background="@drawable/bg_edittext_property"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addmylocationbasicdetails3_texto3"
+                android:textColor="#526D82"
+                android:paddingBottom="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/propertyCapacity"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:textColor="#454545"
+                android:textColorHint="#526D82"
+                android:layout_marginEnd="24dp"
+                android:paddingStart="16dp"
+                android:hint="ex: 200"
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_property"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addmylocationbasicdetails3_texto4"
+                android:textColor="#526D82"
+                android:paddingBottom="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/propertyBeds"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:textColor="#454545"
+                android:textColorHint="#526D82"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="28dp"
+                android:paddingStart="16dp"
+                android:hint="ex: 2"
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_property"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addmylocationbasicdetails3_texto5"
+                android:textColor="#526D82"
+                android:paddingBottom="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/propertyBaths"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:textColor="#454545"
+                android:textColorHint="#526D82"
+                android:layout_marginEnd="24dp"
+                android:paddingStart="16dp"
+                android:hint="ex: 3"
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_property"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_btn_continue"
+        android:text="@string/addmylocationbasicdetails3_button"
+        android:textColor="#526D82"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

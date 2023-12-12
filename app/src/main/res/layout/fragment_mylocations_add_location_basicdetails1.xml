@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blue_background"
+    tools:context=".fragmentsMyLocation.mylocations_add_location_basicdetails1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp">
+
+        <ImageView
+            android:id="@+id/btn_backprevious"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#526D82"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <ImageView
+            android:id="@+id/btn_closeToMenu"
+            android:layout_marginStart="275dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#526D82"
+            app:srcCompat="@drawable/baseline_close_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addmylocationbasicdetails1_texto1"
+        android:textColor="@color/black"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/propertytitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#454545"
+        android:textColorHint="#526D82"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="16dp"
+        android:maxLength="25"
+        android:hint="@string/addmylocationbasicdetails1_edittext"
+        android:background="@drawable/bg_edittext_property"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/idcontador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 de 100"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="24dp"
+        android:textColor="#526D82"
+        android:paddingBottom="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/bg_text_properties">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layoutDirection="ltr"
+            android:textAlignment="viewStart"
+            android:text="@string/addmylocationbasicdetails1_texto2"
+            android:textColor="#526D82"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_btn_continue"
+        android:text="@string/addmylocationbasicdetails1_button"
+        android:textColor="#526D82"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

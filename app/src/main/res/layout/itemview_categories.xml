@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E4F1FF"
+    android:layout_margin="8dp"
+    android:elevation="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="105dp"
+        android:layout_height="105dp">
+
+        <ImageView
+            android:id="@+id/imageCat"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/caticon_farm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/titleCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#454545"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"
+        android:text="TextView" />
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_locations"
+    app:startDestination="@id/viewMyLocations">
+
+    <fragment
+        android:id="@+id/reviewAllData"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.AddLocationReviewAllDataFragment"
+        android:label="fragment_mylocations_add_location"
+        tools:layout="@layout/fragment_mylocations_add_location_reviewalldata" >
+        <action
+            android:id="@+id/action_reviewAllData_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_reviewAllData_to_addressDetails"
+            app:destination="@id/addressDetails" />
+        <action
+            android:id="@+id/action_reviewAllData_to_basicdetails3"
+            app:destination="@id/basicdetails3" />
+        <action
+            android:id="@+id/action_reviewAllData_to_basicdetails1"
+            app:destination="@id/basicdetails1" />
+        <action
+            android:id="@+id/action_reviewAllData_to_basicdetails2"
+            app:destination="@id/basicdetails2" />
+        <action
+            android:id="@+id/action_reviewAllData_to_basicdetails"
+            app:destination="@id/basicdetails" />
+        <action
+            android:id="@+id/action_reviewAllData_to_photos"
+            app:destination="@id/photos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewMyLocations"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.ViewMyLocationsFragment"
+        android:label="fragment_mylocations_view_my_locations"
+        tools:layout="@layout/fragment_mylocations_view_my_locations" >
+        <action
+            android:id="@+id/action_viewMyLocations_to_photos"
+            app:destination="@id/photos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addressDetails"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_addressDetails"
+        android:label="fragment_mylocations_add_location_address_details"
+        tools:layout="@layout/fragment_mylocations_add_location_address_details" >
+        <action
+            android:id="@+id/action_addressDetails_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+        <action
+            android:id="@+id/action_addressDetails_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_addressDetails_to_basicdetails3"
+            app:destination="@id/basicdetails3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/basicdetails"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_basicdetails"
+        android:label="fragment_mylocations_add_location_basicdetails"
+        tools:layout="@layout/fragment_mylocations_add_location_basicdetails" >
+        <action
+            android:id="@+id/action_basicdetails_to_basicdetails1"
+            app:destination="@id/basicdetails1" />
+        <action
+            android:id="@+id/action_basicdetails_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_basicdetails_to_photos"
+            app:destination="@id/photos" />
+        <action
+            android:id="@+id/action_basicdetails_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/basicdetails1"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_basicdetails1"
+        android:label="fragment_mylocations_add_location_basicdetails1"
+        tools:layout="@layout/fragment_mylocations_add_location_basicdetails1" >
+        <action
+            android:id="@+id/action_basicdetails1_to_basicdetails2"
+            app:destination="@id/basicdetails2" />
+        <action
+            android:id="@+id/action_basicdetails1_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_basicdetails1_to_basicdetails"
+            app:destination="@id/basicdetails" />
+        <action
+            android:id="@+id/action_basicdetails1_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/basicdetails2"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_basicdetails2"
+        android:label="fragment_mylocations_add_location_basicdetails2"
+        tools:layout="@layout/fragment_mylocations_add_location_basicdetails2" >
+        <action
+            android:id="@+id/action_basicdetails2_to_basicdetails3"
+            app:destination="@id/basicdetails3" />
+        <action
+            android:id="@+id/action_basicdetails2_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_basicdetails2_to_basicdetails1"
+            app:destination="@id/basicdetails1" />
+        <action
+            android:id="@+id/action_basicdetails2_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photos"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_photos"
+        android:label="fragment_mylocations_add_location_photos"
+        tools:layout="@layout/fragment_mylocations_add_location_photos" >
+        <action
+            android:id="@+id/action_photos_to_basicdetails"
+            app:destination="@id/basicdetails" />
+        <action
+            android:id="@+id/action_photos_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_photos_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicdetails3"
+        android:name="com.example.lazerrenttest.fragmentsMyLocation.mylocations_add_location_basicdetails3"
+        android:label="fragment_mylocations_add_location_basicdetails3"
+        tools:layout="@layout/fragment_mylocations_add_location_basicdetails3" >
+        <action
+            android:id="@+id/action_basicdetails3_to_addressDetails"
+            app:destination="@id/addressDetails" />
+        <action
+            android:id="@+id/action_basicdetails3_to_viewMyLocations"
+            app:destination="@id/viewMyLocations" />
+        <action
+            android:id="@+id/action_basicdetails3_to_basicdetails2"
+            app:destination="@id/basicdetails2" />
+        <action
+            android:id="@+id/action_basicdetails3_to_reviewAllData"
+            app:destination="@id/reviewAllData" />
+    </fragment>
+
+</navigation>

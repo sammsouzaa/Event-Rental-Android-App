@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LazerRent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="API_key">AIzaSyALT4uP4kVc4rgX4of1yxCHot7ilM9cNfE</string>
+
+    <string-array name="types_of_properties">
+        <item>House</item>
+        <item>House w pool</item>
+        <item>Mansion</item>
+        <item>Party Room</item>
+        <item>Farm</item>
+    </string-array>
+
+    <string name="categories_house">House</string>
+    <string name="categories_mansion">Mansion</string>
+    <string name="categories_farm">Farm</string>
+    <string name="categories_partyroom">Party Room</string>
+    <string name="categories_pool">House w/ pool</string>
+
+    <string-array name="languages">
+        <item>Click here</item>
+        <item>Portuguese</item>
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="settingssettings">Change Language</string>
+
+    <string-array name="opcoes_filtro">
+        <item>title</item>
+        <item>address</item>
+    </string-array>
+
+    <string name="splash_developed">developed by Samuel Souza</string>
+
+    <string name="intro_texto1">Find your dream house\nAt the best price</string>
+    <string name="intro_texto2">We\'re here for every homeownership\nMove you face</string>
+    <string name="intro_button">Let\'s Start</string>
+
+    <string name="login_texto1">Welcome\nBack</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_texto2">Are you new User? Register</string>
+    <string name="login_texto3">Reset Password</string>
+
+    <string name="signup_texto1">Create\nAccount</string>
+    <string name="signup_fullname">Fullname</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_cpf">CPF</string>
+    <string name="signup_phone">Phone</string>
+    <string name="signup_password">Password (6+ characters)</string>
+
+    <string name="adm_approval_search">search to approval</string>
+
+    <string name="adm_General">General</string>
+    <string name="adm_Users">Users</string>
+    <string name="adm_to_Approval">to Approval</string>
+    <string name="adm_Properties">Properties</string>
+    <string name="adm_Support">Support</string>
+    <string name="adm_Settings">Settings</string>
+    <string name="adm_log_out">log out</string>
+
+    <string name="adm_properties_search">search properties</string>
+
+    <string name="adm_users_search">search users</string>
+
+    <string name="editdatamylocations_texto1">Edit all information</string>
+    <string name="editdatamylocations_texto2">type of property:</string>
+    <string name="editdatamylocations_texto3">title:</string>
+    <string name="editdatamylocations_texto4">description:</string>
+    <string name="editdatamylocations_texto5">property size (m2):</string>
+    <string name="editdatamylocations_texto6">price (day):</string>
+    <string name="editdatamylocations_texto7">capacity:</string>
+    <string name="editdatamylocations_texto8">beds:</string>
+    <string name="editdatamylocations_texto9">baths:</string>
+    <string name="editdatamylocations_texto10">street:</string>
+    <string name="editdatamylocations_texto11">number:</string>
+    <string name="editdatamylocations_texto12">neighborhood:</string>
+    <string name="editdatamylocations_texto13">city:</string>
+    <string name="editdatamylocations_edittext1">ex: house with a beautiful sea view</string>
+    <string name="editdatamylocations_edittext2">ex: house with large yard, pool table and a barbecue</string>
+    <string name="editdatamylocations_button">continue</string>
+
+    <string name="informationsimovel_information">AD\'s Information</string>
+    <string name="informationsimovel_typeofproperty">type of property:</string>
+    <string name="informationsimovel_photos">photos</string>
+    <string name="informationsimovel_basicinformation">basic information</string>
+    <string name="informationsimovel_additionalinformation">additional information</string>
+    <string name="informationsimovel_addresinformation">adress information</string>
+    <string name="informationsimovel_button1">to approve</string>
+    <string name="informationsimovel_button2">not approve</string>
+
+    <string name="location_Location">Location</string>
+    <string name="location_entrydate">Entry date:</string>
+    <string name="location_exitdate">Exit date:</string>
+    <string name="location_select">select</string>
+    <string name="location_confirm">Confirm</string>
+
+    <string name="details_locations">locations</string>
+    <string name="details_favorites">favorites</string>
+    <string name="details_description">Description</string>
+    <string name="details_capacity">Capacity</string>
+    <string name="details_size">Property Size</string>
+    <string name="details_galeryphoto">Galery Photos</string>
+    <string name="details_bed">bed</string>
+    <string name="details_bath">bath</string>
+    <string name="details_yes">yes</string>
+    <string name="details_rent">RENT NOW</string>
+
+    <string name="acthome_search">search properties</string>
+
+    <string name="editprofile_texto1">Personal Data:</string>
+    <string name="editprofile_texto2">Update Email</string>
+    <string name="editprofile_texto3">Update Password</string>
+    <string name="editprofile_button">Update Data</string>
+    <string name="editprofile_edittext1">Fullname</string>
+    <string name="editprofile_edittext2">CPF</string>
+    <string name="editprofile_edittext3">Phone</string>
+    <string name="editprofile_edittext4">Birth Date</string>
+
+    <string name="mylocations_button">add new imovel</string>
+
+    <string name="dialogaddphotoandusername_texto1">profile info</string>
+    <string name="dialogaddphotoandusername_texto2">please set your username and a profile photo</string>
+    <string name="dialogaddphotoandusername_texto3">username:</string>
+    <string name="dialogaddphotoandusername_editex1">username here</string>
+    <string name="dialogaddphotoandusername_button">send</string>
+
+    <string name="dialogcloseapp_texto1">exit app?</string>
+    <string name="dialogcloseapp_texto2">wold you close app?</string>
+    <string name="dialogcloseapp_button1">no</string>
+    <string name="dialogcloseapp_button2">yes</string>
+
+    <string name="dialogcdisapproved_texto">why did you disapproved?</string>
+    <string name="dialogcdisapproved_edittext">description here</string>
+    <string name="dialogcdisapproved_button">send</string>
+
+    <string name="dialogfilter">select a filter</string>
+
+    <string name="dialogsheetclose_texto1">leave the ad?</string>
+    <string name="dialogsheetclose_texto2">all data filled in will be lost</string>
+    <string name="dialogsheetclose_button1">back</string>
+    <string name="dialogsheetclose_button2">leave</string>
+
+    <string name="fragmentmain_texto1">Find Your</string>
+    <string name="fragmentmain_texto2">Next Destination</string>
+    <string name="fragmentmain_texto3">Popular</string>
+    <string name="fragmentmain_texto4">see all</string>
+    <string name="fragmentmain_texto5">Categories</string>
+    <string name="fragmentmain_edittext">Search Destination...</string>
+
+    <string name="fragmentmaps_texto">search your location...</string>
+
+    <string name="fragmentsettins_texto1">View Profile</string>
+    <string name="fragmentsettins_texto2">Edit Profile</string>
+    <string name="fragmentsettins_texto3">Settings</string>
+    <string name="fragmentsettins_texto4">My Properties</string>
+    <string name="fragmentsettins_texto5">Notifications</string>
+    <string name="fragmentsettins_texto6">Contact us</string>
+    <string name="fragmentsettins_button">log out</string>
+
+    <string name="addmylocationaddres_texto1">address information</string>
+    <string name="addmylocationaddres_texto2">street:</string>
+    <string name="addmylocationaddres_texto3">number:</string>
+    <string name="addmylocationaddres_texto4">neighborhood:</string>
+    <string name="addmylocationaddres_texto5">city:</string>
+    <string name="addmylocationaddres_button">continue</string>
+
+    <string name="addmylocationbasicdetails_texto1">what type does your property fit into?</string>
+    <string name="addmylocationbasicdetails_texto2">house</string>
+    <string name="addmylocationbasicdetails_texto3">house w/ pool</string>
+    <string name="addmylocationbasicdetails_texto4">mansion</string>
+    <string name="addmylocationbasicdetails_texto5">party room</string>
+    <string name="addmylocationbasicdetails_texto6">farm</string>
+
+    <string name="addmylocationbasicdetails1_texto1">give title to your property</string>
+    <string name="addmylocationbasicdetails1_texto2">here\'s the tip! put in the title what the property is and its main attributes and increase the chances of it being found.</string>
+    <string name="addmylocationbasicdetails1_edittext">house with a beautiful sea view</string>
+    <string name="addmylocationbasicdetails1_button">continue</string>
+
+    <string name="addmylocationbasicdetails2_texto">describe your property</string>
+    <string name="addmylocationbasicdetails2_edittext">ex: house with large yard, pool table and a barbecue</string>
+    <string name="addmylocationbasicdetails2_button">continue</string>
+
+    <string name="addmylocationbasicdetails3_texto1">additional information</string>
+    <string name="addmylocationbasicdetails3_texto6">property size (m2):</string>
+    <string name="addmylocationbasicdetails3_texto2">price (day):</string>
+    <string name="addmylocationbasicdetails3_texto3">capacity:</string>
+    <string name="addmylocationbasicdetails3_texto4">beds:</string>
+    <string name="addmylocationbasicdetails3_texto5">baths:</string>
+    <string name="addmylocationbasicdetails3_button">continue</string>
+
+    <string name="addmylocationphotos_texto1">the photos makes all diference!!</string>
+    <string name="addmylocationphotos_texto2">click to edit</string>
+    <string name="addmylocationphotos_texto3">Did you know? Ads with 4 or more photos double your chances of selling.</string>
+    <string name="addmylocationphotos_button">continue</string>
+
+    <string name="addmylocationreviewalldata_texto1">review your ad</string>
+    <string name="addmylocationreviewalldata_texto2">type of property</string>
+    <string name="addmylocationreviewalldata_texto3">edit type</string>
+    <string name="addmylocationreviewalldata_texto4">edit photos</string>
+    <string name="addmylocationreviewalldata_texto5">edit title</string>
+    <string name="addmylocationreviewalldata_texto6">edit price</string>
+    <string name="addmylocationreviewalldata_texto7">edit desc</string>
+    <string name="addmylocationreviewalldata_texto8">edit additional information</string>
+    <string name="addmylocationreviewalldata_texto9">edit adress information</string>
+    <string name="addmylocationreviewalldata_button">send ad</string>
+
+
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LazerRent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="API_key">AIzaSyALT4uP4kVc4rgX4of1yxCHot7ilM9cNfE</string>
+
+    <string-array name="types_of_properties">
+        <item>Casa</item>
+        <item>Piscina</item>
+        <item>Mansão</item>
+        <item>Salão de Festas</item>
+        <item>Chácara</item>
+    </string-array>
+
+    <string name="categories_house">Casa</string>
+    <string name="categories_mansion">Mansão</string>
+    <string name="categories_farm">Chácara</string>
+    <string name="categories_partyroom">Salão de Festas</string>
+    <string name="categories_pool">Piscina</string>
+
+    <string-array name="languages">
+        <item>Clique aqui</item>
+        <item>Português</item>
+        <item>Inglês</item>
+        <item>Espanhol</item>
+    </string-array>
+
+    <string name="settingssettings">Alterar Idioma</string>
+
+    <string-array name="opcoes_filtro">
+        <item>titulo</item>
+        <item>endereço</item>
+    </string-array>
+
+    <string name="splash_developed">desenvolvido por Samuel Souza</string>
+
+    <string name="intro_texto1">Encontre o lugar dos seus sonhos\nCom o melhor preço</string>
+    <string name="intro_texto2">Estamos aqui para cada passo que você enfrenta na conquista do seu lugar ideial</string>
+    <string name="intro_button">começar</string>
+
+    <string name="login_texto1">Bem vindo\nde volta</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+    <string name="login_texto2">Novo usuário? Registre-se</string>
+    <string name="login_texto3">Trocar senha</string>
+
+    <string name="signup_texto1">Criar\nConta</string>
+    <string name="signup_fullname">Nome Completo</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_cpf">CPF</string>
+    <string name="signup_phone">Telefone</string>
+    <string name="signup_password">Senha (6+ characters)</string>
+
+    <string name="adm_approval_search">pesquisar para aprovação</string>
+
+    <string name="adm_General">Geral</string>
+    <string name="adm_Users">Usuarios</string>
+    <string name="adm_to_Approval">Pendentes</string>
+    <string name="adm_Properties">Propriedades</string>
+    <string name="adm_Support">Suporte</string>
+    <string name="adm_Settings">Configurações</string>
+    <string name="adm_log_out">sair</string>
+
+    <string name="adm_properties_search">pesquisar propriedades</string>
+
+    <string name="adm_users_search">pesquisar usuarios</string>
+
+    <string name="editdatamylocations_texto1">Editar Informações</string>
+    <string name="editdatamylocations_texto2">Categoria de propriedade:</string>
+    <string name="editdatamylocations_texto3">titulo:</string>
+    <string name="editdatamylocations_texto4">descrição:</string>
+    <string name="editdatamylocations_texto5">tamanho (m2):</string>
+    <string name="editdatamylocations_texto6">preço (dia):</string>
+    <string name="editdatamylocations_texto7">capacidade:</string>
+    <string name="editdatamylocations_texto8">quartos:</string>
+    <string name="editdatamylocations_texto9">banheiros:</string>
+    <string name="editdatamylocations_texto10">rua:</string>
+    <string name="editdatamylocations_texto11">numero:</string>
+    <string name="editdatamylocations_texto12">bairro:</string>
+    <string name="editdatamylocations_texto13">cidade:</string>
+    <string name="editdatamylocations_edittext1">ex: casa com ótima vista para o mar</string>
+    <string name="editdatamylocations_edittext2">ex: casa com um quintal enorme, mesa de sinuca e churrasqueira</string>
+    <string name="editdatamylocations_button">continuar</string>
+
+    <string name="informationsimovel_information">Informações do anuncio</string>
+    <string name="informationsimovel_typeofproperty">tipo de propriedade</string>
+    <string name="informationsimovel_photos">fotos</string>
+    <string name="informationsimovel_basicinformation">informações basicas</string>
+    <string name="informationsimovel_additionalinformation">informações adicionais</string>
+    <string name="informationsimovel_addresinformation">informações de endereço</string>
+    <string name="informationsimovel_button1">aprovar</string>
+    <string name="informationsimovel_button2">desaprovar</string>
+
+    <string name="location_Location">Reserva</string>
+    <string name="location_entrydate">Data de Entrada:</string>
+    <string name="location_exitdate">Data de Saida:</string>
+    <string name="location_select">Selecionar</string>
+    <string name="location_confirm">Confirmar</string>
+
+    <string name="details_locations">reservas</string>
+    <string name="details_favorites">favoritos</string>
+    <string name="details_description">Descrição</string>
+    <string name="details_capacity">Capacidade</string>
+    <string name="details_size">Tamanho</string>
+    <string name="details_galeryphoto">Galeria de fotos</string>
+    <string name="details_bed">camas</string>
+    <string name="details_bath">banheiros</string>
+    <string name="details_yes">sim</string>
+    <string name="details_rent">RESERVAR</string>
+
+    <string name="acthome_search">pesquisar propriedade</string>
+
+    <string name="editprofile_texto1">Dados pessoais:</string>
+    <string name="editprofile_texto2">Atualizar Email</string>
+    <string name="editprofile_texto3">Atualizar Senha</string>
+    <string name="editprofile_button">Atualizar</string>
+    <string name="editprofile_edittext1">Nome Completo</string>
+    <string name="editprofile_edittext2">CPF</string>
+    <string name="editprofile_edittext3">Telefone</string>
+    <string name="editprofile_edittext4">Data de nascimento</string>
+
+    <string name="mylocations_button">adicionar imovel</string>
+
+    <string name="dialogaddphotoandusername_texto1">informações perfil</string>
+    <string name="dialogaddphotoandusername_texto2">insira seu apelido e uma foto de perfil</string>
+    <string name="dialogaddphotoandusername_texto3">apelido:</string>
+    <string name="dialogaddphotoandusername_editex1">apelido aqui</string>
+    <string name="dialogaddphotoandusername_button">enviar</string>
+
+    <string name="dialogcloseapp_texto1">sair?</string>
+    <string name="dialogcloseapp_texto2">deseja fechar o aplicativo?</string>
+    <string name="dialogcloseapp_button1">não</string>
+    <string name="dialogcloseapp_button2">sim</string>
+
+    <string name="dialogcdisapproved_texto">motivo da desaprovação:</string>
+    <string name="dialogcdisapproved_edittext">descreva aqui</string>
+    <string name="dialogcdisapproved_button">enviar</string>
+
+    <string name="dialogfilter">selecione um filtro</string>
+
+    <string name="dialogsheetclose_texto1">deixar o anuncio?</string>
+    <string name="dialogsheetclose_texto2">todos os dados serão perdidos</string>
+    <string name="dialogsheetclose_button1">voltar</string>
+    <string name="dialogsheetclose_button2">sair</string>
+
+    <string name="fragmentmain_texto1">Encontre Seu</string>
+    <string name="fragmentmain_texto2">Proximo Destino</string>
+    <string name="fragmentmain_texto3">Populares</string>
+    <string name="fragmentmain_texto4">mais</string>
+    <string name="fragmentmain_texto5">Categorias</string>
+    <string name="fragmentmain_edittext">Pesquisar destinos...</string>
+
+    <string name="fragmentmaps_texto">pesquise um local...</string>
+
+    <string name="fragmentsettins_texto1">Ver perfil</string>
+    <string name="fragmentsettins_texto2">Editar Perfil</string>
+    <string name="fragmentsettins_texto3">Configurações</string>
+    <string name="fragmentsettins_texto4">Minhas Propriedades</string>
+    <string name="fragmentsettins_texto5">Notificações</string>
+    <string name="fragmentsettins_texto6">Contate-nos</string>
+    <string name="fragmentsettins_button">sair</string>
+
+    <string name="addmylocationaddres_texto1">informações de endereço</string>
+    <string name="addmylocationaddres_texto2">rua:</string>
+    <string name="addmylocationaddres_texto3">numero:</string>
+    <string name="addmylocationaddres_texto4">bairro:</string>
+    <string name="addmylocationaddres_texto5">cidade:</string>
+    <string name="addmylocationaddres_button">continuar</string>
+
+    <string name="addmylocationbasicdetails_texto1">qual categoria melhor se encaixa com seu imovel?</string>
+    <string name="addmylocationbasicdetails_texto2">casa</string>
+    <string name="addmylocationbasicdetails_texto3">piscina</string>
+    <string name="addmylocationbasicdetails_texto4">mansão</string>
+    <string name="addmylocationbasicdetails_texto5">salão de festas</string>
+    <string name="addmylocationbasicdetails_texto6">chácara</string>
+
+    <string name="addmylocationbasicdetails1_texto1">digite um titulo para seu imóvel</string>
+    <string name="addmylocationbasicdetails1_texto2">fica a dica! coloque no título qual é a propriedade e sua principais atributos e  aumentar o chances de ser encontrado.</string>
+    <string name="addmylocationbasicdetails1_edittext">casa com ótima vista para o mar</string>
+    <string name="addmylocationbasicdetails1_button">continuar</string>
+
+    <string name="addmylocationbasicdetails2_texto">descreva sua propriedade</string>
+    <string name="addmylocationbasicdetails2_edittext">ex: casa com quintal grande, mesa de sinuca e churrasqueira.</string>
+    <string name="addmylocationbasicdetails2_button">continuar</string>
+
+    <string name="addmylocationbasicdetails3_texto1">informações adicionais</string>
+    <string name="addmylocationbasicdetails3_texto6">tamanho (m2):</string>
+    <string name="addmylocationbasicdetails3_texto2">preço (dia):</string>
+    <string name="addmylocationbasicdetails3_texto3">capacidade:</string>
+    <string name="addmylocationbasicdetails3_texto4">camas:</string>
+    <string name="addmylocationbasicdetails3_texto5">banheiros:</string>
+    <string name="addmylocationbasicdetails3_button">continuar</string>
+
+    <string name="addmylocationphotos_texto1">as fotos fazem total diferença!!</string>
+    <string name="addmylocationphotos_texto2">clique para editar</string>
+    <string name="addmylocationphotos_texto3">Você sabia? Anuncios com 4 ou mais fotos tem o dobro de chances de reserva?.</string>
+    <string name="addmylocationphotos_button">continuar</string>
+
+    <string name="addmylocationreviewalldata_texto1">revise seu anuncio</string>
+    <string name="addmylocationreviewalldata_texto2">tipo de propriedade</string>
+    <string name="addmylocationreviewalldata_texto3">editar categoria</string>
+    <string name="addmylocationreviewalldata_texto4">editar fotos</string>
+    <string name="addmylocationreviewalldata_texto5">editar titulo</string>
+    <string name="addmylocationreviewalldata_texto6">editar preço</string>
+    <string name="addmylocationreviewalldata_texto7">editar desc</string>
+    <string name="addmylocationreviewalldata_texto8">editar informações adicionais</string>
+    <string name="addmylocationreviewalldata_texto9">editar information de endereço</string>
+    <string name="addmylocationreviewalldata_button">enviar</string>
+
+
+</resources>

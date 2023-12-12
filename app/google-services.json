@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "684352086790",
+    "project_id": "lazerrent05v",
+    "storage_bucket": "lazerrent05v.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684352086790:android:e8f0c9004de3c4dd57f487",
+        "android_client_info": {
+          "package_name": "com.example.lazerrenttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684352086790-d07qu6t2lbnp9ii139d2elku7c1vio2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgPeyxsK-nt_LOS40CNOKH3KXisCUZ13c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684352086790-d07qu6t2lbnp9ii139d2elku7c1vio2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_photo_username"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp">
+
+    <LinearLayout
+        android:id="@+id/image_add_photo"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/bg_edittext_property"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:background="@drawable/background_imageviewcircle"
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/addphotopikudo"
+            android:outlineProvider="background"
+            android:clipToOutline="true"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/dialogaddphotoandusername_texto1"
+        android:textColor="@color/black"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/dialogaddphotoandusername_texto2"
+        android:textColor="#F94C10"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="12dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogaddphotoandusername_texto3"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext_add_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#454545"
+        android:textColorHint="#454545"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="16dp"
+        android:hint="@string/dialogaddphotoandusername_editex1"
+        android:background="@drawable/bg_edittext_property"
+        android:textSize="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        style="@android:style/Widget.Button"
+        android:backgroundTint="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_btn_continue"
+        android:text="@string/dialogaddphotoandusername_button"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

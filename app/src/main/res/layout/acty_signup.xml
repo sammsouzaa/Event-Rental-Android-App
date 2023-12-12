@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF0FC"
+    tools:context=".authentication.Signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/IDcdNumber"
+                    android:textColor="#526D82"
+                    android:textStyle="italic"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/editext_background"
+                    android:drawableStart="@drawable/baseline_telephone"
+                    android:drawablePadding="16dp"
+                    android:drawableTint="#3B60BC"
+                    android:ems="10"
+                    android:hint="@string/signup_phone"
+                    android:inputType="phone"
+                    android:textColorHint="#3B60BC"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IDcdCpf" />
+
+                <EditText
+                    android:id="@+id/IDcdCpf"
+                    android:textColor="#526D82"
+                    android:textStyle="italic"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/editext_background"
+                    android:drawableStart="@drawable/baseline_cpf"
+                    android:drawablePadding="16dp"
+                    android:drawableTint="#3B60BC"
+                    android:ems="10"
+                    android:hint="@string/signup_cpf"
+                    android:inputType="number"
+                    android:textColorHint="#3B60BC"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IDcdEmail" />
+
+                <EditText
+                    android:id="@+id/IDcdName"
+                    android:textStyle="italic"
+                    android:textColor="#526D82"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/editext_background"
+                    android:drawableStart="@drawable/name"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="@string/signup_fullname"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#3B60BC"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <EditText
+                    android:id="@+id/IDcdPassowrd"
+                    android:textStyle="italic"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/editext_background"
+                    android:drawableStart="@drawable/password"
+                    android:drawableEnd="@drawable/baseline_visibility_off_24"
+                    android:drawableTint="#3B60BC"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="@string/signup_password"
+                    android:inputType="textPassword"
+                    android:textColor="#526D82"
+                    android:textColorHint="#3B60BC"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IDcdNumber" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="248dp"
+                    android:elevation="10dp"
+                    android:text="@string/signup_texto1"
+                    android:textAlignment="center"
+                    android:textColor="#6672FF"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/IDcdEmail"
+                    android:textStyle="italic"
+                    android:textColor="#526D82"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/editext_background"
+                    android:drawableStart="@drawable/email"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="@string/signup_email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#3B60BC"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IDcdName" />
+
+                <ImageView
+                    android:id="@+id/btnRegister"
+                    android:layout_width="62dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IDcdPassowrd"
+                    app:srcCompat="@drawable/btn_arraw1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/top_background2" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
